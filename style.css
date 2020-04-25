@@ -1,0 +1,313 @@
+@charset "UTF-8";
+.backphoto {
+	background-image: url(images/shelves-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	
+}
+
+.layer {
+	background-color: rgba(51,127,127,0.80);
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+}
+
+.main {
+	text-align: center;
+	padding-top: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#logo {
+	padding: 20px;
+}
+
+h2 {
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 25px;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 50px;
+}
+
+h4 {
+	font-family: 'Taviraj', serif;
+	font-size: 40px;
+	color: black;
+	background-color: #F7F4DE;
+	display: inline;
+	padding: 3px;
+}
+
+h3 {
+	font-family: 'Taviraj', serif;
+	color: #333333
+}
+
+body {
+	background-color: #f7f4de;
+}
+
+
+
+
+.email, .connect {
+	text-align: center;
+}
+
+.subscribe {
+	color: #ffffff;
+	font-size: 15px
+}
+
+.connect {
+	padding-top: 20px;
+	margin-bottom: -90px;}
+
+.icons {
+	padding-top: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.email {
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.down {
+	padding-top: 100px;
+	visibility: hidden;
+	align-content: center;
+}
+
+/* nav main*/
+
+.navigation {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #494848;
+}
+.shelf1 {
+	background-image: url(images/lg-books1.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 250px;
+	text-align: center;
+	padding-top: 100px;
+	margin-left: -70px;
+	opacity: 0.9;
+}
+
+.shelf2 {
+	background-image: url(images/lg-books2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 250px;
+	text-align: center;
+	padding-top: 100px;
+	opacity: 0.8;
+}
+
+.shelf3{
+	background-image: url(images/lg-books4.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 250px;
+	text-align: center;
+	padding-top: 100px;
+	margin-left: -70px;
+	opacity: 0.7;
+}
+
+.shelf4{
+	background-image: url(images/lg-books2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 250px;
+	text-align: center;
+	padding-top: 100px;
+	margin-right: -70px;
+	opacity: 0.8;
+}
+
+/*about page*/
+
+.back-about {
+	background-image: url(images/lg-books2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 150px;	
+}
+
+.layer-over {
+	background-color: rgba(51,127,127,0.90);
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 150px;
+}
+
+.about {
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.history{
+	font-family: 'Quicksand', sans-serif;
+	text-align: right;
+	margin-top: 20px;
+}
+
+.story{
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 20px;
+}
+.footer {
+	background-color: rgb(51,127,127);
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	padding-bottom: 20px;
+	padding-top: 40px;
+		
+}
+
+/*services*/
+
+.bulk {
+	font-family: 'Taviraj', serif;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+	color: #414040;
+	padding: 8px;
+}
+
+.bulk-info {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.bulk-table {
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*events*/
+
+.events-head {
+	font-family: 'Taviraj', serif;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+	color: #414040;
+	padding: 8px;
+}
+
+.date {
+	font-family: 'Taviraj', serif;
+	font-weight: 600;
+	margin-bottom: -15px;
+}
+
+.name {
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: -15px;
+}
+
+/*visit*/
+
+.info {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.map {
+	margin-top: 10px;
+}
+
+.footer {
+	font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	h2 {
+	font-size: 20px;
+}
+	.shelf1 {
+	background-image: url(images/sm-books1.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+
+.shelf2 {
+	background-image: url(images/sm-books3.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	min-height: 270px;
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 30px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.shelf3 {
+	background-image: url(images/sm-books4.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	min-height: 250px;
+	text-align: right;
+	padding-top: 100px;
+	padding-right: 0px;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+
+.shelf4{
+	background-image: url(images/sm-books2.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	min-height: 270px;
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+	
+	.down {
+		visibility: visible;	
+	}
+	
+}
